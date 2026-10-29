@@ -1,0 +1,23 @@
+# Dataset va file nen
+*.zip
+data/
+
+# Checkpoint model
+*.pth
+*.pt
+*.ckpt
+experiments/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+
+# Output ket qua
+outputs*/
+experiments*/
+logs*/
+events.out.tfevents.*
+test_data/
